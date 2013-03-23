@@ -13,7 +13,7 @@ function (compassError) {
 	{ frequency: 3000 });// Update every 3 seconds
 		});
 		$('#bDtn').tap(function(){
-			navigator.compas.clearWatch(watchID);
+			navigator.compass.clearWatch(watchID);
 			watchID = null;
 			$('#bRes').text(0.000);
 		});
